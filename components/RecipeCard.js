@@ -10,7 +10,9 @@ const RecipeCard = ({ recipe }) => {
 				<Image
 					src={`https:${thumbnail.fields.file.url}`}
 					width={thumbnail.fields.file.details.image.width}
+					width='600px'
 					height={thumbnail.fields.file.details.image.height}
+					height='600px'
 				/>
 			</div>
 			<div className='content'>
